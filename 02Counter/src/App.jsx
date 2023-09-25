@@ -12,14 +12,23 @@ import './App.css'
 
 function App() {
 
-  let [counter , setCounter] = useState(0)
+  let [counter , setCounter] = useState(5)
 
   // let counter = 15;
 
   const addValue = () => {
     console.log("clicked" , counter);
     if(counter < 20){
+
+
       setCounter(counter + 1);
+      
+      // setCounter(prevCounter => prevCounter + 1);
+      // setCounter(prevCounter => prevCounter + 1);
+      // setCounter(prevCounter => prevCounter + 1);
+      // setCounter(prevCounter => prevCounter + 1);
+    
+      
 
     }else{
       // counter = 20
