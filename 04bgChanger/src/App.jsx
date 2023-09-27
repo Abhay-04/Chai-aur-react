@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 
 function App() {
-  const [color, setColor] = useState("olive")
+  const [color, setColor] = useState("black")
 
   return (
     <div className="w-full h-screen duration-200" style={{backgroundColor: color}}>
@@ -23,13 +23,43 @@ function App() {
            className= "outline-none px-4 py-1 rounded-full text-white shadow-lg" 
           style={{backgroundColor: "blue"}}>Blue</button>
 
-          <button onClick={()=> setColor("purple")} 
-           className= "outline-none px-4 py-1 rounded-full text-white shadow-lg" 
-          style={{backgroundColor: "purple"}}>Purple</button>
-
+         
           <button onClick={()=> setColor("olive")} 
            className= "outline-none px-4 py-1 rounded-full text-white shadow-lg" 
           style={{backgroundColor: "olive"}}>Olive</button>
+
+
+          <button onClick={()=> setColor("grey")} 
+           className= "outline-none px-4 py-1 rounded-full text-white shadow-lg" 
+          style={{backgroundColor: "grey"}}>Gray</button>
+
+
+          <button onClick={()=> setColor("yellow")} 
+           className= "outline-none px-4 py-1 rounded-full text-black shadow-lg" 
+          style={{backgroundColor: "yellow"}}>Yellow</button>
+
+          <button onClick={()=> setColor("pink")} 
+           className= "outline-none px-4 py-1 rounded-full text-white shadow-lg" 
+          style={{backgroundColor: "pink"}}>Pink</button>
+
+         <button onClick={()=> setColor("purple")} 
+           className= "outline-none px-4 py-1 rounded-full text-white shadow-lg" 
+          style={{backgroundColor: "purple"}}>Purple</button>
+
+
+         <button onClick={()=> setColor("lavender")} 
+           className= "outline-none px-4 py-1 rounded-full text-black shadow-lg" 
+          style={{backgroundColor: "lavender"}}>Lavender</button>
+
+
+         <button onClick={()=> setColor("white")} 
+           className= "outline-none px-4 py-1 rounded-full text-black shadow-lg" 
+          style={{backgroundColor: "white"}}>White</button>
+
+
+         <button onClick={()=> setColor("black")} 
+           className= "outline-none px-4 py-1 rounded-full text-white shadow-lg" 
+          style={{backgroundColor: "black"}}>Black</button>
         </div>
       </div>
     </div>
